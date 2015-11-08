@@ -1,3 +1,9 @@
+---
+layout: post
+title: "What is a sustainable government deficit"
+date: 2015-07-14
+---
+
 
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
