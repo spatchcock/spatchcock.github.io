@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is a sustainable government deficit"
+title: "What is a sustainable government deficit?"
 date: 2015-07-14
 ---
 
