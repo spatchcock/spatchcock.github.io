@@ -9,7 +9,7 @@ title:               spatchcock
 tagline:             'the blog of spatchcock'
 description:         'Varied rambling on science, maths, coding and economics. Made by <a href="https://twitter.com/spatchcockable" target="_blank">@spatchcockable</a>.'
 url:                 http://spatchcock.github.io
-baseurl:             ''
+baseurl:             'http://spatchcock.github.io'
 paginate:            5
 
 # About/contact
