@@ -1,2 +1,22 @@
-name: Misunderheard
-markdown: kramdown
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               spatchcock
+tagline:             'the blog of spatchcock'
+description:         'Varied rambling on science, maths, coding and economics. Made by <a href="https://twitter.com/spatchcockable" target="_blank">@spatchcockable</a>.'
+url:                 http://spatchcock.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Andrew Berkeley
+  url:               https://twitter.com/spatchcockable
+  email:             andrew.berkeley@gogglemail.com
+
+# Custom vars
+version:             1.0.0
