@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "What is a sustainable government deficit"
+description: "Some maths and code to understand how growth and deficits affect government debt."
+tags: [economics, money, python, code]
 date: 2015-07-14
 ---
 
