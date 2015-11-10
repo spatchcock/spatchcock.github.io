@@ -1,6 +1,6 @@
-title:            Blog Title
-description:      Describe your website here.
-disqus_shortname: neohpstrtheme
+title:            Misunderheard
+description:      Varied ramblings on science, code and economics.
+disqus_shortname: misunderheard
 reading_time:     true
 words_per_minute: 200
 logo:             images/logo.png
@@ -28,10 +28,10 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
+  name:           Andrew Berkeley
   site:           http://spatchcock.github.io
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  avatar:         images/spatchcock.jpg
+  bio:            "Your bio goes here."
   email:          andrew.berkeley.is@googlemail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: spatchcockable
@@ -43,7 +43,7 @@ owner:
   flickr:
   tumblr:
   # google plus id, include the '+', eg +AronBordin
-  google_plus:    +yourid
+  google_plus:
 
 social:
   - title: "github"
