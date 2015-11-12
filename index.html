@@ -34,7 +34,7 @@ comments: false
     {% if post.content contains "<!-- more -->" %}
     {{ post.content | split:"<!-- more -->" | first % }}
     {% else %}
-      {{ post.content }}
+      {{ post.excerpt }}
     {% endif %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->

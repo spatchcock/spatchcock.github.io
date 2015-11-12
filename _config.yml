@@ -1,4 +1,4 @@
-title:            Misunderheard
+title:            msunderheard
 description:      Varied ramblings on science, code and economics.
 disqus_shortname: misunderheard
 reading_time:     true
@@ -9,19 +9,19 @@ logo:             images/logo.jpg
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
 
 menu:
-  - title: 'Home'
+  - title: 'home'
     url: '/'
-  - title: 'About'
-    url: '/about'
-  - title: 'Tags'
+  - title: 'tags'
     url: '/tags'
-  - title: 'Projects'
+  - title: 'projects'
     url: '#'
     submenu:
-      - title: 'Modelling foraminifera'
+      - title: 'Foraminiferal assemblage modelling in Python'
         url: '/foram_python/'
-      - title: 'Monetary economics'
+      - title: 'Monetary economics in Python'
         url: '/monetary_economics/'
+  - title: 'about'
+    url: '/about'
 
 # Owner/author information
 owner:
