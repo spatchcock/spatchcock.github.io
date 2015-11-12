@@ -1214,18 +1214,3 @@ uTiO4zix487FcRzHiR13Lo7jOE7suHNxHMdxYuf/Axg5pjOUi8qPAAAAAElFTkSuQmCC
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>

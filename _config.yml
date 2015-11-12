@@ -3,7 +3,7 @@ description:      Varied ramblings on science, code and economics.
 disqus_shortname: misunderheard
 reading_time:     true
 words_per_minute: 200
-logo:             images/logo.jpg
+logo:             images/spatchcock.jpg
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
@@ -27,7 +27,7 @@ menu:
 owner:
   name:           Andrew Berkeley
   site:           http://spatchcock.github.io
-  avatar:         images/spatchcock.jpg
+  avatar:         images/avatar.jpg
   bio:            "Your bio goes here."
   email:          andrew.berkeley.is@googlemail.com
   # Social networking links used in footer. Update and remove as you like.
