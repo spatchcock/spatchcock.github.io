@@ -8,3 +8,5 @@ image:
 comments: false
 modified: 2014-12-24
 ---
+
+{% include author.html %}
