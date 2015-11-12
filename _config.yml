@@ -15,16 +15,13 @@ menu:
     url: '/about'
   - title: 'Tags'
     url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
+  - title: 'Projects'
     url: '#'
     submenu:
-      - title: 'highlighter'
-        url: '/code-highlighting-post/'
-      - title: 'intro'
-        url: '/readability-post/'
+      - title: 'Modelling foraminifera'
+        url: '/foram_python/'
+      - title: 'Monetary economics'
+        url: '/monetary_economics/'
 
 # Owner/author information
 owner:
