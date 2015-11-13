@@ -35,7 +35,7 @@ comments: false
       {{ post.content | split:"<!-- more -->" | first % }}
     {% else %}
       {{ post.excerpt }}
-      ...
+      . . .
     {% endif %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
