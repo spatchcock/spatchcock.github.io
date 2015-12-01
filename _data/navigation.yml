@@ -2,13 +2,14 @@
   url: "/"
   side: left
 
-- title: Archive
-  url: "/archive/"
+- title: "Blog"
+  url: "/blog/"
   side: left
-
-- title: "Tags"
-  url: "/tags/"
-  side: left
+  dropdown:
+  - title: "Archive"
+    url: "/archive/"
+  - title: "Tags"
+    url: "/tags/"
 
 - title: "Projects"
   url: "#"
