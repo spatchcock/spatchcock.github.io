@@ -36,16 +36,11 @@ format: page-fullwidth
 </div><!-- /.row -->
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="previous">Previous</a>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next">Next</a>
   {% endif %}
 </div>
 

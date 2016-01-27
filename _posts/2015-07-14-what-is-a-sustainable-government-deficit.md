@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: blog-fullwidth
 title: "What is a sustainable government deficit?"
-description: "Some maths and code to understand how growth and deficits affect government debt."
+subheadline: "Some maths and code to understand how growth and deficits affect government debt."
 tags: [economics, money, python, code]
 date: 2015-07-14
+category: "blog"
+header: false
 ---
 
 
@@ -13,7 +15,6 @@ date: 2015-07-14
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>A government's budget is in <em>deficit</em> when its expenditure exceeds its tax revenue. Since governments tend to meet this shortfall through a process described as <em>borrowing</em>, deficits add to a government's debt. The UK government is in an almost continual state of budget deficit, with roughly 85% of the post-WWII period being characterised by deficits. This means that UK government debt is continually increasing.</p>
-<!--break-->
 <p>Is this necessarily bad? Is there a sense in which increasing debt is <em>sustainable</em>? Well, if the size of the UK economy is also increasing then the size of the debt <em>relative to the economy</em> may not necessarily be increasing. It is this measure that is usually taken to be more important than the <em>absolute</em> size of the debt.</p>
 <p>So here I'll try to figure out how a budget deficit interacts with economic growth to produce an impact on government debt. First I'll develop some simple mathematical descriptions of each of the components (economic growth, debt, etc.) and then produce some simple example scenarios in Python. We'll assume a constant rate of economic growth and a constant rate of deficit spending.</p>
 </div>
@@ -43,6 +44,9 @@ date: 2015-07-14
 </div>
 </div>
 </div>
+
+<!--more-->
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>

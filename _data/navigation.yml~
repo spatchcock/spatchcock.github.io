@@ -5,14 +5,14 @@
 - title: "Blog"
   url: "/blog/"
   side: left
-  # dropdown:
-  # - title: "Archive"
-  #   url: "/blog/archive/"
-  # - title: "Tags"
-  #   url: "/blog/tags/"
+  dropdown:
+  - title: "Archive"
+    url: "/archive/"
+  - title: "Tags"
+    url: "/tags/"
 
 - title: "Projects"
-  url: "/projects/"
+  url: "#"
   side: left
   dropdown:
   - title: "Modelling microfossil accumulation in Python"
