@@ -8,6 +8,8 @@ category: "blog"
 header: false
 ---
 
+**This was originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
+
 A government "budget deficit" is the difference between government spending and tax revenue for any given time period (e.g. a year). In the UK it is officially labelled "Public Sector Net Borrowing", because any spending deficit is covered by issuing government debt.
 
 The deficit and debt of the government have been discussed intensively by politicians and the media in the UK over the past 5 years - particularly in the lead up to the recent general election. Most discussion of these issues revolves around the idea that large government deficits and debts are a problem as they represent the government "living beyond it's means" and unjustly burdening the "next generation" with debt. This meme has had enormous success, with all the main parties in the UK accepting the need to reduce spending with an ultimate aim of bringing government finances into a position of surplus (tax > spending) within some stated time frame. A government budget surplus is therefore prized as an indicator of responsible management of the government finances and the economy in general.
@@ -63,3 +65,8 @@ This is a simplistic example featuring just the "leakage" of domestic saving as 
 This perspective is quite different from that we normally hear from politicians who like to couch the deficit only in terms of funding government. I am not sure how they reconcile their view with the historical record of massive, long-term, net deficits. The view described here also explains why the government debt never gets paid off. Why would savers intent on increasing their savings accept repayment of their savings? Will they suddenly decide that they want to spend the money they were saving? No. Government debt that is due repayment simply gets "rolled over" as continued savings.
 
 So if you are one of those that doesn't approve of the government deficit and debt, then maybe the rational thing for you to do would be to help reduce it by cashing in your pension.
+
+
+### Podcast
+
+If you been affected by any of the issues in this post, listen to [this podcast](http://www.rationalintuition.net/2015/07/episode-2-deficit-puzzle.html).
