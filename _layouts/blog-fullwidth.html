@@ -30,18 +30,23 @@ format: page-fullwidth
 			</p>
 			{% endif %}
 
+			</br>
+
 			{{ content }}
+			<div class="pagination">
+			  {% if page.previous %}
+			    <a href="{{ page.previous.url }}" class="previous">&lt;&lt; Previous</a>
+			  {% endif %}
+			</div>
+			<div class="pagination">
+			  {% if page.next %}
+			    <a href="{{ page.next.url }}" class="next">Next &gt;&gt;</a>
+			  {% endif %}
+			</div>
 		</article>
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
 
-<div class="pagination">
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="previous">Previous</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="next">Next</a>
-  {% endif %}
-</div>
+
 
 

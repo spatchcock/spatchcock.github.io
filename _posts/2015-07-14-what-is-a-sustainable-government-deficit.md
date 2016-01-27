@@ -5,9 +5,10 @@ subheadline: "Some maths and code to understand how growth and deficits affect g
 tags: [economics, money, python, code]
 date: 2015-07-14
 category: "blog"
-header: false
+redirect_from: 
+ - /2015/07/what-is-sustainable-government-deficit.html
+ipython_notebook: true
 ---
-
 
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -20,6 +21,9 @@ header: false
 </div>
 </div>
 </div>
+
+<!--more-->
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -44,8 +48,6 @@ header: false
 </div>
 </div>
 </div>
-
-<!--more-->
 
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">

@@ -5,10 +5,15 @@ subheadline: "Are government's books ever balanced over the long term? And shoul
 tags: [economics, money]
 date: 2015-09-07
 category: "blog"
-header: false
 ---
 
-**This post was original posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
+_ _ _
+
+
+**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
+
+_ _ _
+
 
 The People's Quantitative Easing (PQE) proposal that is currently being debated in the UK media is the version proposed by [Richard Murphy](http://www.taxresearch.org.uk/Blog/2015/03/12/how-green-infrastructure-quantitative-easing-would-work/).  It involves local authorities issuing debt in the form of bonds to fund investment in infrastructure. The bonds would originate from a newly created public investment bank and would be immediately bought up by the Bank of England (BoE) using newly created money. The bonds, now held by the BoE would be effectively cancelled (though complications arise here due to the Lisbon Treaty). In this way, the investment is effectively funded by new money creation by the BoE, albeit through a slightly convoluted process.
 

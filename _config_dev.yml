@@ -8,7 +8,9 @@
 url: 'http://localhost:4000'
 urlimg: 'http://localhost:4000/images/'
 baseurl: ""
-gems: [jekyll-paginate]
+gems: 
+ - jekyll-redirect-from
+ - jekyll-paginate
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

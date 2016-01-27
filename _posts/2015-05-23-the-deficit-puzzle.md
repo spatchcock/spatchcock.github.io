@@ -5,10 +5,13 @@ subheadline: "Are government's books ever balanced over the long term? And shoul
 tags: [economics, money, deficit]
 date: 2015-05-23
 category: "blog"
-header: false
 ---
 
-**This was originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
+_ _ _
+
+**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
+
+_ _ _
 
 A government "budget deficit" is the difference between government spending and tax revenue for any given time period (e.g. a year). In the UK it is officially labelled "Public Sector Net Borrowing", because any spending deficit is covered by issuing government debt.
 
@@ -18,6 +21,12 @@ The deficit and debt of the government have been discussed intensively by politi
 Here's a curious thing. The charts below show the state of the UK and US government finances through the post war period quoted relative to Gross Domestic Product (GDP). For the period 1956-2007 (omitting the Global Financial Crisis (GFC)), the UK government budget was in deficit during 174 of 208 quarters, that is, 84% of the time. On average, the government balance was not zero, but was equal to a deficit of 2.38% of GDP.
 
 For the US government, the period 1947-2007 (omitting WWII and the GFC) experienced a budget deficit for 49 out of 60 years (80%). On average, the US government budget was in deficit equal to 1.5% of GDP for the whole time period and 2.5% of GDP since 1975. Since the US data also include absolute dollar values of the budget position, the net deficit over the period can be calculated at $8 trillion dollars (corrected to FY 2009 dollars), or $16 trillion dollars if WWII and the GFC are included.
+
+To anyone who has been listening to the main political parties or media commentators in the UK over the past 5 years, this should be extremely puzzling. Aren't we told that the "books" should be balanced each year, with governments only spending what is collected in tax? Yet government finances in both the UK and US have been almost entirely in deficit for six decades! A more nuanced view might agree that a budget deficit is to be expected during a recession - when tax revenues fall and social security payments rise. But in such a case, surely the temporary spending deficits are "paid for" by budget surpluses during the "good times". In other words, the books should be balanced "over the business cycle". But again, looking at the historical data, which spans multiple recessions, it is clear that the books are not remotely balanced over any business cycle or longer time scales.
+
+There is a way to explain this, and it paints quite a different picture of the role of government (and government debt) in the economy to that normally offered by mainstream media and politicians. It is, however, pretty basic macroeconomics!
+
+<!--more-->
 
 <br />
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left:auto; margin-right:auto; text-align: left;"><tbody>
@@ -33,12 +42,6 @@ For the US government, the period 1947-2007 (omitting WWII and the GFC) experien
 </tbody></table>
 
 <br />
-
-To anyone who has been listening to the main political parties or media commentators in the UK over the past 5 years, this should be extremely puzzling. Aren't we told that the "books" should be balanced each year, with governments only spending what is collected in tax? Yet government finances in both the UK and US have been almost entirely in deficit for six decades! A more nuanced view might agree that a budget deficit is to be expected during a recession - when tax revenues fall and social security payments rise. But in such a case, surely the temporary spending deficits are "paid for" by budget surpluses during the "good times". In other words, the books should be balanced "over the business cycle". But again, looking at the historical data, which spans multiple recessions, it is clear that the books are not remotely balanced over any business cycle or longer time scales.
-
-There is a way to explain this, and it paints quite a different picture of the role of government (and government debt) in the economy to that normally offered by mainstream media and politicians. It is, however, pretty basic macroeconomics!
-
-<!--more-->
 
 ### The spending merry-go-round
 Let's consider the economy of a single country. The transactions that go on within that country can be called the "domestic economy". Every £ spent by one person or business is a £ earned by another person or business, who then goes on to spend it again, begetting yet more income for someone else. Spending and income are thus two sides of the same coin (pun intended). If spending stops, there are no incomes. If spending increases or decreases, so do incomes. In principle, there is a level of spending which equates to a sufficiently high level of incomes that every person who wants to work can have a job; that is, full employment. Should spending be lower than this amount, some unemployment will occur.
