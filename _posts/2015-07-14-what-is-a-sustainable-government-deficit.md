@@ -25,7 +25,7 @@ header: false
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Economic-growth">Economic growth<a class="anchor-link" href="#Economic-growth">&#182;</a></h2>
+<h3 id="Economic-growth">Economic growth<a class="anchor-link" href="#Economic-growth"></a></h3>
 </div>
 </div>
 </div>
@@ -52,7 +52,7 @@ header: false
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Change-in-debt">Change in debt<a class="anchor-link" href="#Change-in-debt">&#182;</a></h2>
+<h3 id="Change-in-debt">Change in debt<a class="anchor-link" href="#Change-in-debt"></a></h3>
 </div>
 </div>
 </div>
@@ -83,7 +83,7 @@ header: false
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-debt-ratio">The debt ratio<a class="anchor-link" href="#The-debt-ratio">&#182;</a></h2>
+<h3 id="The-debt-ratio">The debt ratio<a class="anchor-link" href="#The-debt-ratio"></a></h3>
 </div>
 </div>
 </div>
@@ -121,7 +121,7 @@ header: false
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Some-simulations">Some simulations<a class="anchor-link" href="#Some-simulations">&#182;</a></h2>
+<h3 id="Some-simulations">Some simulations<a class="anchor-link" href="#Some-simulations"></a></h3>
 </div>
 </div>
 </div>
@@ -1203,7 +1203,7 @@ uTiO4zix487FcRzHiR13Lo7jOE7suHNxHMdxYuf/Axg5pjOUi8qPAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3>
+<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"></a></h3>
 </div>
 </div>
 </div>
