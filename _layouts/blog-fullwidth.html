@@ -20,8 +20,9 @@ format: page-fullwidth
 	<div class="medium-12 columns">
 		<article>
 			<header>
-				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 				<h1>{{ page.title }}</h1>
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+				<p class=""><span class="">Posted on {% if page.date %}{{ page.date | date_to_long_string }}{% endif %} {% if page.author %} by {{ site.data.authors[page.author].name }}{% endif %}</span></p>
 			</header>
 
 			{% if page.teaser %}
@@ -30,9 +31,10 @@ format: page-fullwidth
 			</p>
 			{% endif %}
 
-			</br>
+			<hr>
 
 			{{ content }}
+
 			<div class="pagination">
 			  {% if page.previous %}
 			    <a href="{{ page.previous.url }}" class="previous">&lt;&lt; Previous</a>
@@ -43,6 +45,8 @@ format: page-fullwidth
 			    <a href="{{ page.next.url }}" class="next">Next &gt;&gt;</a>
 			  {% endif %}
 			</div>
+
+			{% include _comments.html %}
 		</article>
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->

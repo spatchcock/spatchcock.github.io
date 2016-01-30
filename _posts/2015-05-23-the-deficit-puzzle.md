@@ -7,8 +7,6 @@ date: 2015-05-23
 category: "blog"
 ---
 
-_ _ _
-
 **Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
 
 _ _ _

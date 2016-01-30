@@ -7,8 +7,6 @@ date: 2015-09-07
 category: "blog"
 ---
 
-_ _ _
-
 
 **Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
 
