@@ -7,10 +7,6 @@ date: 2015-05-23
 category: "blog"
 ---
 
-**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
-
-_ _ _
-
 A government "budget deficit" is the difference between government spending and tax revenue for any given time period (e.g. a year). In the UK it is officially labelled "Public Sector Net Borrowing", because any spending deficit is covered by issuing government debt.
 
 The deficit and debt of the government have been discussed intensively by politicians and the media in the UK over the past 5 years - particularly in the lead up to the recent general election. Most discussion of these issues revolves around the idea that large government deficits and debts are a problem as they represent the government "living beyond it's means" and unjustly burdening the "next generation" with debt. This meme has had enormous success, with all the main parties in the UK accepting the need to reduce spending with an ultimate aim of bringing government finances into a position of surplus (tax > spending) within some stated time frame. A government budget surplus is therefore prized as an indicator of responsible management of the government finances and the economy in general.
@@ -71,3 +67,9 @@ So if you are one of those that doesn't approve of the government deficit and de
 ### Podcast
 
 If you been affected by any of the issues in this post, listen to [this podcast](http://www.rationalintuition.net/2015/07/episode-2-deficit-puzzle.html).
+
+_ _ _
+
+**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html).**
+
+_ _ _

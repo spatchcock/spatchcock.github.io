@@ -8,11 +8,6 @@ category: "blog"
 ---
 
 
-**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
-
-_ _ _
-
-
 The People's Quantitative Easing (PQE) proposal that is currently being debated in the UK media is the version proposed by [Richard Murphy](http://www.taxresearch.org.uk/Blog/2015/03/12/how-green-infrastructure-quantitative-easing-would-work/).  It involves local authorities issuing debt in the form of bonds to fund investment in infrastructure. The bonds would originate from a newly created public investment bank and would be immediately bought up by the Bank of England (BoE) using newly created money. The bonds, now held by the BoE would be effectively cancelled (though complications arise here due to the Lisbon Treaty). In this way, the investment is effectively funded by new money creation by the BoE, albeit through a slightly convoluted process.
 
 Some of the main criticisms of this idea have been:
@@ -72,3 +67,10 @@ PQE, as presented, includes some useful ideas and some unnecessary ones. There d
 ### Podcast
 
 If you been affected by any of the issues in this post, listen to [this podcast](http://www.rationalintuition.net/2015/09/episode-3-qe-or-not-to-qe.html).
+
+_ _ _
+
+
+**Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
+
+_ _ _
