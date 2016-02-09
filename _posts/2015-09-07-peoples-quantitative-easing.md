@@ -1,7 +1,7 @@
 ---
 layout: blog-fullwidth
 title: "People's Quantitative Easing"
-subheadline: "Are government's books ever balanced over the long term? And should they be?"
+subheadline: "Can and should the Bank of England be used to fund infrastructure and other socially-oriented projects?"
 tags: [economics, money]
 date: 2015-09-07
 category: "blog"
@@ -68,7 +68,7 @@ PQE, as presented, includes some useful ideas and some unnecessary ones. There d
 
 If you been affected by any of the issues in this post, listen to [this podcast](http://www.rationalintuition.net/2015/09/episode-3-qe-or-not-to-qe.html).
 
-_ _ _
+_ _ _	
 
 
 **Originally posted on [rationalintuition.net](http://www.rationalintuition.net/2015/09/peoples-quantitative-easing-pqe.html).**
