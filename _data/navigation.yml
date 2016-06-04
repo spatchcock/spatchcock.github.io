@@ -12,7 +12,6 @@
   #   url: "/blog/tags/"
 
 - title: "Projects"
-  url: false
   side: left
   dropdown:
   - title: "Monetary Economics in Python"
