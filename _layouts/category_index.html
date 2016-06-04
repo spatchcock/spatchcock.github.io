@@ -9,6 +9,8 @@ breadcrumb: true
     {% if page.teaser %}<p class="teaser">{{ page.teaser }}</p>{% endif %}
 
     <dl class="accordion" data-accordion>
+      {{page.category}}
+      {{site.categories.[page.category]}}
       {% assign counter = 1 %}
       {% for posts in site.categories.[page.category] limit:1000 %}
         
