@@ -12,7 +12,7 @@
   #   url: "/blog/tags/"
 
 - title: "Projects"
-  url: "/projects/"
+  url: "/"
   side: left
   dropdown:
   - title: "Monetary Economics in Python"
