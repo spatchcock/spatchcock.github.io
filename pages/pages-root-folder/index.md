@@ -12,36 +12,36 @@ widget1:
   url: 'http://spatchcock.github.io/blog/'
   image: notes-on-wood-3-1315481.jpg
   text: ''
+#widget3:
+#  title: "Foram modelling"
+#  url: 'http://spatchcock.github.io/foram_python/'
+#  text: ''
+#  image: integral-calculations-1535285.jpg
 widget2:
-  title: "Foram modelling"
-  url: 'http://spatchcock.github.io/foram_python/'
-  text: ''
-  image: integral-calculations-1535285.jpg
-widget3:
   title: "Monetary Economics"
   url: 'https://spatchcock.github.io/monetary_economics'
   image: 239_1.jpg
   text: ''
-widget4:
-  title: "Contact"
-  url: 'https://spatchcock.github.io/contact'
-  image: blank-moleskine-pages-1530260.jpg
-  text: ''
-widget5:
-  title: "About"
-  url: 'https://spatchcock.github.io/about'
-  image: chalkboard-1309469.jpg
-  text: ''
-widget6:
-  title: "Advection-diffusion"
-  url: 'https://spatchcock.github.io/about'
-  image: integral-calculations-1535285.jpg
-  text: ''
-widget7:
-  title: "Coastal models"
-  url: 'https://spatchcock.github.io/about'
-  image: flow-1359872.jpg
-  text: ''
+#widget4:
+#  title: "Contact"
+#  url: 'https://spatchcock.github.io/contact'
+#  image: blank-moleskine-pages-1530260.jpg
+#  text: ''
+#widget5:
+#  title: "About"
+#  url: 'https://spatchcock.github.io/about'
+#  image: chalkboard-1309469.jpg
+#  text: ''
+#widget6:
+#  title: "Advection-diffusion"
+#  url: 'https://spatchcock.github.io/about'
+#  image: integral-calculations-1535285.jpg
+#  text: ''
+#widget7:
+#  title: "Coastal models"
+#  url: 'https://spatchcock.github.io/about'
+#  image: flow-1359872.jpg
+#  text: ''
 #
 # Use the call for action to show a button on the frontpage
 #
