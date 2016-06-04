@@ -15,8 +15,6 @@
   url: "/projects/"
   side: left
   dropdown:
-  - title: "Modelling microfossil accumulation in Python"
-    url: "/foram_python/"
   - title: "Monetary Economics in Python"
     url: "/monetary_economics/"
 
