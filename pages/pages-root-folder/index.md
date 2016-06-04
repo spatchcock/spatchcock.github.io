@@ -5,8 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-header: 
-  image_fullwidth: 239_1.jpg
+header: false
 widget1:
   title: "Blog"
   url: 'http://spatchcock.github.io/blog/'
