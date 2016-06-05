@@ -2,7 +2,7 @@
 layout: blog-fullwidth
 title: "Spending, income and the circular flow of money"
 subheadline: "The simplest economic model conceivable"
-tags: [economics, money, python, code, spending, income, stock, flow, velocity of money]
+tags: [economics, money, python, code, model, velocity of money, fixed money supply]
 date: 2016-06-04
 category: "monetary_economics"
 ipython_notebook: true
