@@ -9,7 +9,7 @@ ipython_notebook: true
 ---
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In the previous models we set up the scenario we wanted to model, with equations, some numbers for each of the parameters, and some starting (&quot;initial&quot;) conditions. Once we set the models up we simply left them to run their course on the basis of the conditions we'd chosen. In this post we'll model a scenario where conditions change <em>during the course of the model run</em>. In doing so we'll draw a distinction between <em>exogenous</em> and <em>endogenous</em> variables.</p>
+<p>In the <a href="http://misunderheard.org/monetary_economics/">previous monetary economics models</a> we set up the scenario we wanted to model, with equations, some numbers for each of the parameters, and some starting (&quot;initial&quot;) conditions. Once we set the models up we simply left them to run their course on the basis of the conditions we'd chosen. In this post we'll model a scenario where conditions change <em>during the course of the model run</em>. In doing so we'll draw a distinction between <em>exogenous</em> and <em>endogenous</em> variables.</p>
 
 <!--more-->
 
