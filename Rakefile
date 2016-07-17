@@ -27,6 +27,7 @@ task :publish => [:generate] do
     system "git push origin master --force"
     system "git checkout master"
     system "echo yolo"
+    system "git checkout source"
   end
 end
 task :default => :publish
