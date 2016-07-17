@@ -954,63 +954,6 @@ gYiIWmFxICKiVlgciIioFRYHIiJqhcWBiIha+X8uDnNazujgAAAAAABJRU5ErkJggg==
 <p>What we've done here is to simply redefine the <code>alpha_y</code> array with new values for each time step. This time we've got a different value at (almost) every time step. We've used a more complicated mathematical function (a sine function) to make the spending behviour of our citizens vary more smoothly through time between <span class="math">\(\alpha_Y\)</span> values of <span class="math">\(0.85\)</span> and <span class="math">\(0.95\)</span>.</p>
 <p>If we re-run the model with this <code>alpha_y</code> variable, we get:</p>
 </div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[99]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">N</span><span class="p">):</span>
-    <span class="n">C</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="o">=</span> <span class="n">alpha_y</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="o">*</span> <span class="n">Y</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">alpha_h</span> <span class="o">*</span> <span class="n">H</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>                
-    <span class="n">Y</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="o">=</span> <span class="n">C</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>                                                  
-    <span class="n">H</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="o">=</span> <span class="n">H</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">alpha_y</span><span class="p">[</span><span class="n">t</span><span class="p">])</span> <span class="o">*</span> <span class="n">Y</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">alpha_h</span> <span class="o">*</span> <span class="n">H</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-
-
-<span class="c"># create a figure</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
-
-<span class="c"># create a subplot for consumption</span>
-<span class="n">consumption_plot</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">131</span><span class="p">)</span>
-<span class="c"># plot consumption (C) versus time step (N)</span>
-<span class="n">consumption_plot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">),</span> <span class="n">C</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="c"># add gridlines</span>
-<span class="n">consumption_plot</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-<span class="c"># ensure a zero origin for the y axis</span>
-<span class="n">consumption_plot</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span>
-<span class="c"># label axes</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;consumption&#39;</span><span class="p">)</span>
-
-<span class="c"># create a second subplot for income</span>
-<span class="n">income_plot</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">132</span><span class="p">)</span>
-<span class="c"># plot income (Y) versus time step (N)</span>
-<span class="n">income_plot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">),</span> <span class="n">Y</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="c"># add gridlines</span>
-<span class="n">income_plot</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-<span class="c"># ensure a zero origin for the y axis</span>
-<span class="n">income_plot</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span>
-<span class="c"># label axes</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;income&#39;</span><span class="p">)</span>
-
-<span class="c"># create a third subplot for private wealth</span>
-<span class="n">wealth_plot</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">133</span><span class="p">)</span>
-<span class="c"># plot wealth (H) versus time step (N)</span>
-<span class="n">wealth_plot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">),</span> <span class="n">H</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="c"># add gridlines</span>
-<span class="n">wealth_plot</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-<span class="c"># ensure a zero origin for the y axis</span>
-<span class="n">wealth_plot</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">])</span>
-<span class="c"># label axes</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;wealth&#39;</span><span class="p">)</span>
-
-<span class="c"># space subplots neatly</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
 
 <div class="vbox output_wrapper">
 <div class="output vbox">
