@@ -3,7 +3,7 @@ layout: blog-fullwidth
 title: "Government money and saving"
 subheadline: "How private sector saving affects the fiscal multiplier and the government's budget"
 tags: [economics, money, python, code, model, fiscal multiplier, saving, tax, deficit, budget]
-date: 2016-11-21
+date: 2016-11-20
 category: "monetary_economics"
 ipython_notebook: true
 ---
