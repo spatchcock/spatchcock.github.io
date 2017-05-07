@@ -1,9 +1,10 @@
--
+---
 layout: blog-fullwidth
 title: "Is taxation theft?"
 subheadline: "Do we have the right to exert our economic power unchecked?"
 tags: [economics, tax, power, morality]
 date: 2017-05-06
+category: "blog"
 ipython_notebook: false
 ---
 
