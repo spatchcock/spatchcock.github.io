@@ -75,6 +75,7 @@ ipython_notebook: true
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>stocks</strong></td>
