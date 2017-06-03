@@ -3,7 +3,7 @@ layout: blog-fullwidth
 title: "A simple economy with government money"
 subheadline: "A simple but rigorous accounting of economic flows and sectoral balances through time"
 tags: [economics, money, python, code, model, fiscal multiplier, saving, tax, stock-flow-consistency, sectoral balances, government debt]
-date: 2017-04-10
+date: 2017-06-03
 category: "monetary_economics"
 ipython_notebook: true
 ---
