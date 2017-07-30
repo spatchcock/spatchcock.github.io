@@ -1,0 +1,519 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+		<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>The Deficit Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="http://misunderheard.org/assets/css/styles_feeling_responsive.css" />
+	<script src="http://misunderheard.org/assets/js/modernizr.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+      }
+    });
+  </script>
+
+  <noscript>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
+  </noscript>
+
+  
+	
+	<meta name="description" content="My attempts to learn and understand stuff. Mostly involving maths, science, coding, and modelling. And a disproportionate amount of economics." />
+
+	
+
+	
+
+
+
+	
+	<link rel="icon" sizes="32x32" href="http://misunderheard.org/assets/img/preview_32x32.png" />
+
+
+
+
+	
+	<link rel="icon" sizes="192x192" href="http://misunderheard.org/assets/img/touch-icon-192x192.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://misunderheard.org/assets/img/apple-touch-icon-180x180-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://misunderheard.org/assets/img/apple-touch-icon-152x152-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://misunderheard.org/assets/img/apple-touch-icon-144x144-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://misunderheard.org/assets/img/apple-touch-icon-120x120-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://misunderheard.org/assets/img/apple-touch-icon-114x114-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://misunderheard.org/assets/img/apple-touch-icon-76x76-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://misunderheard.org/assets/img/apple-touch-icon-72x72-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" href="http://misunderheard.org/assets/img/apple-touch-icon-precomposed.png" />	
+
+
+
+
+	
+	<meta name="msapplication-TileImage" content="http://misunderheard.org/assets/img/msapplication_tileimage.png" />
+
+
+
+
+	
+	<meta name="msapplication-TileColor" content="#fabb00" />
+
+
+
+	<!-- Facebook Optimization -->
+	<meta property="og:locale" content="en_EN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="The Deficit Puzzle" />
+	<meta property="og:description" content="My attempts to learn and understand stuff. Mostly involving maths, science, coding, and modelling. And a disproportionate amount of economics." />
+	<meta property="og:url" content="http://misunderheard.org//blog/2015/05/23/the-deficit-puzzle/" />
+	<meta property="og:site_name" content="misunderheard" />
+	
+
+	
+
+	<!-- Search Engine Optimization -->
+	
+
+	<link type="text/plain" rel="author" href="http://misunderheard.org/humans.txt" />
+
+	
+
+	
+
+	
+
+	
+</head>
+<body id="top-of-page" class="">
+	
+	<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://misunderheard.org" class="icon-tree"> misunderheard</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://misunderheard.org/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://misunderheard.org/contact/">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://misunderheard.org/">misunderheard</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li class="active" ><a href="http://misunderheard.org/blog/">Blog</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="http://misunderheard.org">Projects</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="http://misunderheard.org/monetary_economics/">Monetary Economics in Python</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+
+
+
+	
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				<h1>The Deficit Puzzle</h1>
+				<p class="subheadline">Are government's books ever balanced over the long term? And should they be?</p>
+				<p class=""><span class="">Posted on 23 May 2015  by Andrew Berkeley</span></p>
+			</header>
+
+			
+
+			<hr>
+
+			<p>A government “budget deficit” is the difference between government spending and tax revenue for any given time period (e.g. a year). In the UK it is officially labelled “Public Sector Net Borrowing”, because any spending deficit is covered by issuing government debt.</p>
+
+<p>The deficit and debt of the government have been discussed intensively by politicians and the media in the UK over the past 5 years - particularly in the lead up to the recent general election. Most discussion of these issues revolves around the idea that large government deficits and debts are a problem as they represent the government “living beyond it’s means” and unjustly burdening the “next generation” with debt. This meme has had enormous success, with all the main parties in the UK accepting the need to reduce spending with an ultimate aim of bringing government finances into a position of surplus (tax &gt; spending) within some stated time frame. A government budget surplus is therefore prized as an indicator of responsible management of the government finances and the economy in general.</p>
+
+<h3 id="some-data">Some data</h3>
+<p>Here’s a curious thing. The charts below show the state of the UK and US government finances through the post war period quoted relative to Gross Domestic Product (GDP). For the period 1956-2007 (omitting the Global Financial Crisis (GFC)), the UK government budget was in deficit during 174 of 208 quarters, that is, 84% of the time. On average, the government balance was not zero, but was equal to a deficit of 2.38% of GDP.</p>
+
+<p>For the US government, the period 1947-2007 (omitting WWII and the GFC) experienced a budget deficit for 49 out of 60 years (80%). On average, the US government budget was in deficit equal to 1.5% of GDP for the whole time period and 2.5% of GDP since 1975. Since the US data also include absolute dollar values of the budget position, the net deficit over the period can be calculated at $8 trillion dollars (corrected to FY 2009 dollars), or $16 trillion dollars if WWII and the GFC are included.</p>
+
+<p>To anyone who has been listening to the main political parties or media commentators in the UK over the past 5 years, this should be extremely puzzling. Aren’t we told that the “books” should be balanced each year, with governments only spending what is collected in tax? Yet government finances in both the UK and US have been almost entirely in deficit for six decades! A more nuanced view might agree that a budget deficit is to be expected during a recession - when tax revenues fall and social security payments rise. But in such a case, surely the temporary spending deficits are “paid for” by budget surpluses during the “good times”. In other words, the books should be balanced “over the business cycle”. But again, looking at the historical data, which spans multiple recessions, it is clear that the books are not remotely balanced over any business cycle or longer time scales.</p>
+
+<p>There is a way to explain this, and it paints quite a different picture of the role of government (and government debt) in the economy to that normally offered by mainstream media and politicians. It is, however, pretty basic macroeconomics!</p>
+
+<!--more-->
+
+<p><br /></p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left:auto; margin-right:auto; text-align: left;"><tbody>
+<tr><td style="text-align: center;"><img border="0" height="291" src="http://misunderheard.org/images/UK_PSNB.png" style="margin-left: auto; margin-right: auto;" width="580" /></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: small; text-align: left;">UK Public Sector Net Borrowing (1956-2014) as a percentage of GDP (source:&nbsp;</span><a href="http://www.ons.gov.uk/ons/dcp171766_386187.pdf" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: medium; text-align: left;">ons.gov.uk</a><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: small; text-align: left;">)</span></td></tr>
+</tbody></table>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style=" margin-left:auto; margin-right:auto; text-align: left;"><tbody>
+<tr><td style="text-align: center;"><img border="0" height="291" src="http://misunderheard.org/images/US_deficit.png" style="margin-left: auto; margin-right: auto;" width="580" /></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: small; text-align: left;">US government budget deficit (1946-2014) as percentage of GDP (source:&nbsp;</span><a href="https://www.whitehouse.gov/sites/default/files/omb/budget/fy2016/assets/hist01z3.xls" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: medium; text-align: left;">whitehouse.gov</a><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: small; text-align: left;">)</span></td></tr>
+</tbody></table>
+
+<p><br /></p>
+
+<h3 id="the-spending-merry-go-round">The spending merry-go-round</h3>
+<p>Let’s consider the economy of a single country. The transactions that go on within that country can be called the “domestic economy”. Every £ spent by one person or business is a £ earned by another person or business, who then goes on to spend it again, begetting yet more income for someone else. Spending and income are thus two sides of the same coin (pun intended). If spending stops, there are no incomes. If spending increases or decreases, so do incomes. In principle, there is a level of spending which equates to a sufficiently high level of incomes that every person who wants to work can have a job; that is, full employment. Should spending be lower than this amount, some unemployment will occur.</p>
+
+<p>Since each £ gets spent many times in a given time period (e.g. a year), total spending can be considered in terms of an absolute stock of existing money (the “money supply”) and the speed at which it is circulated (the “velocity of money”). If the stock of money decreases, then the remaining stock must circulate faster if the same amount of spending (and therefore incomes) is to be maintained. Equally, if the speed at which money changes hands decreases, then more money is required to maintain the same level of spending (and income).</p>
+
+<p>Incidently, this equivalence of spending and income is one reason why the analogy of the <a href="http://www.rationalintuition.net/2015/05/shiny-images-dull-truths.html" target="_blank">government as a household</a> is flawed. The government’s spending adds to national income which in turn increases government revenue (i.e. tax). It’s a lucky household wherein income increases with increased spending!</p>
+
+<h3 id="the-paradox-of-thrift">The paradox of thrift</h3>
+<p>But what if not every £ of income is spent? For example, if I choose to save £100 (under my mattress or in a bank account) then this unspent money can be viewed as being held out of the circulating money stock. Another way of viewing it is as “low-velocity” money: the saved money is now circulating more slowly than the money which is immediately spent. If I save every time I earn some income (e.g. each month) then my savings will grow through time. But if my stock of savings grows through time this must mean that the amount of money in circulation is decreasing (or slowing). So if the private sector (people, business; not government) on aggregate wants to save some of their income, these savings represent a leakage of money from the existing money stock, or a slowing of the circulation rate of money. Either view has the same implication: the level of spending is being continually decreased by the build up of savings.</p>
+
+<p>This is famously known as “the Paradox of Thrift”, the notion - identified by John Maynard Keynes - that, although an act of saving might be rational at the individual level, collective saving will be self-defeating, resulting in lower incomes for all as spending is reduced. As the incomes of citizens and businesses are reduced by the collective attempt to save, so those very savings will need to spent. This may be good news for the resumption of spending and incomes but the consequence is that saving is impossible.</p>
+
+<h3 id="the-public-bank">The public bank</h3>
+<p>Imagine there was some entity in the economy that could take the savings of the populace and spend it in the economy. This sort of recycling would ensure that spending levels, and therefore incomes, are maintained. Of course, an obvious candidate for such a role is a bank. Don’t banks take deposits from savers and lend them out to borrowers? Well, <a href="http://www.bankofengland.co.uk/publications/Documents/quarterlybulletin/2014/qb14q1prereleasemoneycreation.pdf" target="_blank">no they don’t</a>, but even if they did it wouldn’t solve our problem. Banks lend to businesses and citizens and so even if saving by one party is matched by borrowing by another, the amounts would cancel out and the private sector as a whole would not be in a net saving position. What we are trying to figure out is how the private sector can save as a whole and yet maintain stable spending/income levels.</p>
+
+<p>But hang on a minute! Haven’t we just looked at some data showing that the government pretty much continuously spends more money in to the economy than it taxes away? Could it be that those deficits are what make saving possible? There is a nice symmetry here. The savings of an individual may be expected to increase through their life and then perhaps decrease during, say, retirement. But for the population as a whole, with overlapping generations, we would expect a more or less consistent savings rate to produce a stable stock of total savings. Factor in population growth, economic growth and inflation, and we would expect the total savings of the private sector to increase through time. And as the value of the savings in our bank accounts and pension investments grows through time so does the cumulative value of successive government spending deficits  - the government debt.</p>
+
+<p>Is this symmetry just a coincidence or is there a more explicit link here? Who is it that buys government debt? Well, banks and other financial institutions - particularly pension funds - buy lots of government debt, for at least two reasons. First, government debt pays interest, whereas vast piles of cash do not. In this sense, swapping pounds sterling for UK government bonds is a bit like switching from a current account to a savings account. Secondly, the debt of a government which controls its own currency is regarded as a highly safe, essentially risk-free investment. So the very institutions that host the savings of businesses and citizens (banks, pension funds, etc.) choose to place their savings in government debt. As Frances Coppola recently remarked: <a href="http://coppolacomment.blogspot.co.uk/2013/01/when-governments-become-banks.html" target="_blank">governments are really banks</a>!. Not only is government debt the ultimate, safe savings vehicle for the financial sector, but the government also recycles our savings directly back into the economy when it “borrows” and deficits spends in just the way many people (erroneously) think banks do.</p>
+
+<h3 id="so-what">So what?</h3>
+<p>This is a simplistic example featuring just the “leakage” of domestic saving as well as government spending and borrowing. In reality, there are many more inflows to and outflows from the domestic economy including taxation (only implied in the example), overseas trade, and bank credit. But hopefully the example shows that government deficit spending is not necessarily simply a matter of failing to manage the government’s finances adequately. Government deficits perform at least two socially desirable functions beyond the funding of government programmes and services: (1) they maintain spending and incomes in the economy in light of private sector savings desires; and (2) the issuance of debt provides a safe and interest-bearing store for our long term savings. Simply put, if the private sector tend to want to save over the long term, then - all other things being equal - the government should be expected to run a long-term budget deficit in order to maintain a stable economy. And the national debt is not only equal to national savings, it IS the national savings.</p>
+
+<p>This perspective is quite different from that we normally hear from politicians who like to couch the deficit only in terms of funding government. I am not sure how they reconcile their view with the historical record of massive, long-term, net deficits. The view described here also explains why the government debt never gets paid off. Why would savers intent on increasing their savings accept repayment of their savings? Will they suddenly decide that they want to spend the money they were saving? No. Government debt that is due repayment simply gets “rolled over” as continued savings.</p>
+
+<p>So if you are one of those that doesn’t approve of the government deficit and debt, then maybe the rational thing for you to do would be to help reduce it by cashing in your pension.</p>
+
+<h3 id="podcast">Podcast</h3>
+
+<p>If you been affected by any of the issues in this post, listen to <a href="http://www.rationalintuition.net/2015/07/episode-2-deficit-puzzle.html">this podcast</a>.</p>
+
+<hr />
+
+<p><strong>Originally posted on <a href="http://www.rationalintuition.net/2015/05/the-deficit-puzzle-are-government.html">rationalintuition.net</a>.</strong></p>
+
+<hr />
+
+
+			<div class="pagination">
+			  
+			</div>
+			<div class="pagination">
+			  
+			    <a href="/blog/2015/06/10/best-kept-secret-in-politics/" class="next">Next &gt;&gt;</a>
+			  
+			</div>
+
+						
+				<h3 id="comments" class="t60">Discussion</h3>
+			
+			    <div id="disqus_thread"></div>
+			    <script type="text/javascript">
+			        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+			        var disqus_shortname = 'misunderheard'; 
+			        var disqus_identifier = '/blog/2015/05/23/the-deficit-puzzle/';
+
+			        /* * * DON'T EDIT BELOW THIS LINE * * */
+			        (function() {
+			            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			        })();
+			    </script>
+			    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			
+
+
+
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+
+
+
+
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              My attempts to learn and understand stuff. Mostly involving maths, science, coding, and modelling. And a disproportionate amount of economics.
+              <a href="http://misunderheard.org/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href=""  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+
+            <ul class="no-bullet shadow-black">
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>
+              Created by&nbsp;<a href="http://spatchcock.github.io/">Andrew&nbsp;Berkeley</a> using <a href="https://pages.github.com/" target="_blank">Github Pages</a>, &nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
+            </p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="http://github.com/spatchcock" target="_blank" class="icon-github" title="Code..."></a></li>
+            
+              <li><a href="http://twitter.com/spatchcockable" target="_blank" class="icon-twitter" title="Me on Twitter"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://misunderheard.org/assets/js/javascript.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
